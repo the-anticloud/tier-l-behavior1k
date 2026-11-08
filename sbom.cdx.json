@@ -1,0 +1,340 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:74ba3eea-b9ec-5eed-b032-4ffac35044c9",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T20:32:35Z",
+    "component": {
+      "type": "application",
+      "name": "L_BEHAVIOR1K",
+      "version": "a8247a8cc163",
+      "bom-ref": "pkg:generic/anticloud/L_BEHAVIOR1K@a8247a8cc163",
+      "purl": "pkg:generic/anticloud/L_BEHAVIOR1K@a8247a8cc163",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "a8247a8cc1633fe1ca0cc66aa07243d46c64f155"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/StanfordVL/BEHAVIOR-1K.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "gymnasium",
+      "version": ">=0.28.1",
+      "purl": "pkg:pypi/gymnasium@0.28.1",
+      "bom-ref": "pypi/gymnasium@>=0.28.1"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": "<2.0.0,>=1.23.5",
+      "purl": "pkg:pypi/numpy@2.0.0,>=1.23.5",
+      "bom-ref": "pypi/numpy@<2.0.0,>=1.23.5"
+    },
+    {
+      "type": "library",
+      "name": "scipy",
+      "version": ">=1.10.1",
+      "purl": "pkg:pypi/scipy@1.10.1",
+      "bom-ref": "pypi/scipy@>=1.10.1"
+    },
+    {
+      "type": "library",
+      "name": "GitPython",
+      "version": ">=3.1.40",
+      "purl": "pkg:pypi/gitpython@3.1.40",
+      "bom-ref": "pypi/GitPython@>=3.1.40"
+    },
+    {
+      "type": "library",
+      "name": "transforms3d",
+      "version": ">=0.4.1",
+      "purl": "pkg:pypi/transforms3d@0.4.1",
+      "bom-ref": "pypi/transforms3d@>=0.4.1"
+    },
+    {
+      "type": "library",
+      "name": "networkx",
+      "version": ">=3.2.1",
+      "purl": "pkg:pypi/networkx@3.2.1",
+      "bom-ref": "pypi/networkx@>=3.2.1"
+    },
+    {
+      "type": "library",
+      "name": "PyYAML",
+      "version": ">=6.0.1",
+      "purl": "pkg:pypi/pyyaml@6.0.1",
+      "bom-ref": "pypi/PyYAML@>=6.0.1"
+    },
+    {
+      "type": "library",
+      "name": "addict",
+      "version": ">=2.4.0",
+      "purl": "pkg:pypi/addict@2.4.0",
+      "bom-ref": "pypi/addict@>=2.4.0"
+    },
+    {
+      "type": "library",
+      "name": "ipython",
+      "version": ">=8.20.0",
+      "purl": "pkg:pypi/ipython@8.20.0",
+      "bom-ref": "pypi/ipython@>=8.20.0"
+    },
+    {
+      "type": "library",
+      "name": "future",
+      "version": ">=0.18.3",
+      "purl": "pkg:pypi/future@0.18.3",
+      "bom-ref": "pypi/future@>=0.18.3"
+    },
+    {
+      "type": "library",
+      "name": "trimesh",
+      "version": ">=4.0.8",
+      "purl": "pkg:pypi/trimesh@4.0.8",
+      "bom-ref": "pypi/trimesh@>=4.0.8"
+    },
+    {
+      "type": "library",
+      "name": "h5py",
+      "version": ">=3.10.0",
+      "purl": "pkg:pypi/h5py@3.10.0",
+      "bom-ref": "pypi/h5py@>=3.10.0"
+    },
+    {
+      "type": "library",
+      "name": "cryptography",
+      "version": ">=41.0.7",
+      "purl": "pkg:pypi/cryptography@41.0.7",
+      "bom-ref": "pypi/cryptography@>=41.0.7"
+    },
+    {
+      "type": "library",
+      "name": "bddl",
+      "version": "~=3.7.0",
+      "purl": "pkg:pypi/bddl@3.7.0",
+      "bom-ref": "pypi/bddl@~=3.7.0"
+    },
+    {
+      "type": "library",
+      "name": "opencv-python",
+      "version": ">=4.8.1",
+      "purl": "pkg:pypi/opencv-python@4.8.1",
+      "bom-ref": "pypi/opencv-python@>=4.8.1"
+    },
+    {
+      "type": "library",
+      "name": "nest_asyncio",
+      "version": ">=1.5.6",
+      "purl": "pkg:pypi/nest-asyncio@1.5.6",
+      "bom-ref": "pypi/nest_asyncio@>=1.5.6"
+    },
+    {
+      "type": "library",
+      "name": "imageio",
+      "version": ">=2.33.1",
+      "purl": "pkg:pypi/imageio@2.33.1",
+      "bom-ref": "pypi/imageio@>=2.33.1"
+    },
+    {
+      "type": "library",
+      "name": "imageio-ffmpeg",
+      "version": ">=0.4.9",
+      "purl": "pkg:pypi/imageio-ffmpeg@0.4.9",
+      "bom-ref": "pypi/imageio-ffmpeg@>=0.4.9"
+    },
+    {
+      "type": "library",
+      "name": "termcolor",
+      "version": ">=2.4.0",
+      "purl": "pkg:pypi/termcolor@2.4.0",
+      "bom-ref": "pypi/termcolor@>=2.4.0"
+    },
+    {
+      "type": "library",
+      "name": "progressbar",
+      "version": ">=2.5",
+      "purl": "pkg:pypi/progressbar@2.5",
+      "bom-ref": "pypi/progressbar@>=2.5"
+    },
+    {
+      "type": "library",
+      "name": "pymeshlab",
+      "version": "~=2022.2; platform_machine!=",
+      "purl": "pkg:pypi/pymeshlab@2022.2; platform_machine!=",
+      "bom-ref": "pypi/pymeshlab@~=2022.2; platform_machine!="
+    },
+    {
+      "type": "library",
+      "name": "click",
+      "version": ">=8.1.3",
+      "purl": "pkg:pypi/click@8.1.3",
+      "bom-ref": "pypi/click@>=8.1.3"
+    },
+    {
+      "type": "library",
+      "name": "aenum",
+      "version": ">=3.1.15",
+      "purl": "pkg:pypi/aenum@3.1.15",
+      "bom-ref": "pypi/aenum@>=3.1.15"
+    },
+    {
+      "type": "library",
+      "name": "rtree",
+      "version": ">=1.2.0",
+      "purl": "pkg:pypi/rtree@1.2.0",
+      "bom-ref": "pypi/rtree@>=1.2.0"
+    },
+    {
+      "type": "library",
+      "name": "graphviz",
+      "version": ">=0.20",
+      "purl": "pkg:pypi/graphviz@0.20",
+      "bom-ref": "pypi/graphviz@>=0.20"
+    },
+    {
+      "type": "library",
+      "name": "matplotlib",
+      "version": ">=3.0.0",
+      "purl": "pkg:pypi/matplotlib@3.0.0",
+      "bom-ref": "pypi/matplotlib@>=3.0.0"
+    },
+    {
+      "type": "library",
+      "name": "lxml",
+      "version": ">=5.2.2",
+      "purl": "pkg:pypi/lxml@5.2.2",
+      "bom-ref": "pypi/lxml@>=5.2.2"
+    },
+    {
+      "type": "library",
+      "name": "numba",
+      "version": ">=0.59.1",
+      "purl": "pkg:pypi/numba@0.59.1",
+      "bom-ref": "pypi/numba@>=0.59.1"
+    },
+    {
+      "type": "library",
+      "name": "cffi",
+      "version": "==1.17.1",
+      "purl": "pkg:pypi/cffi@1.17.1",
+      "bom-ref": "pypi/cffi@==1.17.1"
+    },
+    {
+      "type": "library",
+      "name": "pillow",
+      "version": "~=11.0.0",
+      "purl": "pkg:pypi/pillow@11.0.0",
+      "bom-ref": "pypi/pillow@~=11.0.0"
+    },
+    {
+      "type": "library",
+      "name": "websockets",
+      "version": ">=15.0.1",
+      "purl": "pkg:pypi/websockets@15.0.1",
+      "bom-ref": "pypi/websockets@>=15.0.1"
+    },
+    {
+      "type": "library",
+      "name": "omegaconf",
+      "version": ">=2.3.0",
+      "purl": "pkg:pypi/omegaconf@2.3.0",
+      "bom-ref": "pypi/omegaconf@>=2.3.0"
+    },
+    {
+      "type": "library",
+      "name": "pytest",
+      "version": ">=6.2.3",
+      "purl": "pkg:pypi/pytest@6.2.3",
+      "bom-ref": "pypi/pytest@>=6.2.3"
+    },
+    {
+      "type": "library",
+      "name": "pytest-cov",
+      "version": ">=3.0.0",
+      "purl": "pkg:pypi/pytest-cov@3.0.0",
+      "bom-ref": "pypi/pytest-cov@>=3.0.0"
+    },
+    {
+      "type": "library",
+      "name": "pyright",
+      "version": ">=1.1.390",
+      "purl": "pkg:pypi/pyright@1.1.390",
+      "bom-ref": "pypi/pyright@>=1.1.390"
+    },
+    {
+      "type": "library",
+      "name": "telemoma",
+      "version": "~=0.3.0",
+      "purl": "pkg:pypi/telemoma@0.3.0",
+      "bom-ref": "pypi/telemoma@~=0.3.0"
+    },
+    {
+      "type": "library",
+      "name": "gspread",
+      "version": ">=6.2.1",
+      "purl": "pkg:pypi/gspread@6.2.1",
+      "bom-ref": "pypi/gspread@>=6.2.1"
+    },
+    {
+      "type": "library",
+      "name": "ninja",
+      "version": "~=1.13.0",
+      "purl": "pkg:pypi/ninja@1.13.0",
+      "bom-ref": "pypi/ninja@~=1.13.0"
+    },
+    {
+      "type": "library",
+      "name": "warp-lang",
+      "version": "==1.12.0",
+      "purl": "pkg:pypi/warp-lang@1.12.0",
+      "bom-ref": "pypi/warp-lang@==1.12.0"
+    },
+    {
+      "type": "library",
+      "name": "dm_tree",
+      "version": ">=0.1.9",
+      "purl": "pkg:pypi/dm-tree@0.1.9",
+      "bom-ref": "pypi/dm_tree@>=0.1.9"
+    },
+    {
+      "type": "library",
+      "name": "hydra-core",
+      "version": ">=1.3.2",
+      "purl": "pkg:pypi/hydra-core@1.3.2",
+      "bom-ref": "pypi/hydra-core@>=1.3.2"
+    },
+    {
+      "type": "library",
+      "name": "msgpack",
+      "version": ">=1.1.0",
+      "purl": "pkg:pypi/msgpack@1.1.0",
+      "bom-ref": "pypi/msgpack@>=1.1.0"
+    },
+    {
+      "type": "library",
+      "name": "open3d",
+      "version": ">=0.19.0",
+      "purl": "pkg:pypi/open3d@0.19.0",
+      "bom-ref": "pypi/open3d@>=0.19.0"
+    }
+  ]
+}
